@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      CV Mugi Berkah Jaya | Pengolahan Limbah &amp; Tekstil Ekonomi Sirkular
+    </title>
+    <meta
+      name="description"
+      content="CV Mugi Berkah Jaya: jembatan ekonomi sirkular untuk pengelolaan scrap kain perca, kulit, PVC, besi, dan logam dari industri, sekaligus memberdayakan masyarakat desa di Grobogan."
+    />
+    <link rel="icon" href="images/logo.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              display: ["Plus Jakarta Sans", "sans-serif"],
+            },
+            colors: {
+              forest: {
+                50: "#effaf4",
+                100: "#d7f2e3",
+                500: "#10845a",
+                600: "#0b6b49",
+                700: "#08563b",
+                800: "#064330",
+                900: "#042e22",
+              },
+              gold: { 400: "#d9b46a", 500: "#c39a4a", 600: "#a67f33" },
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        color: #1e293b;
+        background: #f8fafc;
+      }
+      h1,
+      h2,
+      h3,
+      .font-display {
+        font-family: "Plus Jakarta Sans", sans-serif;
+      }
+      .grad-text {
+        background: linear-gradient(
+          100deg,
+          #0b6b49 10%,
+          #10b981 55%,
+          #c39a4a 100%
+        );
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .geo {
+        background-image: linear-gradient(
+            rgba(11, 107, 73, 0.06) 1px,
+            transparent 1px
+          ),
+          linear-gradient(90deg, rgba(11, 107, 73, 0.06) 1px, transparent 1px);
+        background-size: 44px 44px;
+        -webkit-mask-image: radial-gradient(
+          ellipse at 70% 30%,
+          #000 10%,
+          transparent 70%
+        );
+        mask-image: radial-gradient(
+          ellipse at 70% 30%,
+          #000 10%,
+          transparent 70%
+        );
+      }
+      .card {
+        transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1),
+          box-shadow 0.35s, border-color 0.35s;
+      }
+      .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 24px 48px -16px rgba(16, 132, 90, 0.35);
+        border-color: #10845a;
+      }
+      .card:hover .ico {
+        background: #0b6b49;
+        color: #fff;
+      }
+      .ico {
+        transition: background 0.3s, color 0.3s;
+      }
+      .zoom img {
+        transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+      }
+      .zoom:hover img {
+        transform: scale(1.1);
+      }
+      .nav-scrolled {
+        background: rgba(255, 255, 255, 0.72);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        box-shadow: 0 1px 0 rgba(15, 23, 42, 0.06),
+          0 8px 30px -12px rgba(15, 23, 42, 0.15);
+      }
+      .hero-in > * {
+        opacity: 0;
+        transform: translateY(18px);
+        animation: up 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+      }
+      .hero-in > *:nth-child(2) {
+        animation-delay: 0.12s;
+      }
+      .hero-in > *:nth-child(3) {
+        animation-delay: 0.24s;
+      }
+      .hero-in > *:nth-child(4) {
+        animation-delay: 0.36s;
+      }
+      @keyframes up {
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+      .float {
+        animation: float 6s ease-in-out infinite;
+      }
+      .rv {
+        opacity: 0;
+        transform: translateY(24px);
+        transition: opacity 0.8s, transform 0.8s;
+      }
+      .rv.on {
+        opacity: 1;
+        transform: none;
+      }
+      :focus-visible {
+        outline: 2px solid #c39a4a;
+        outline-offset: 3px;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          animation: none !important;
+          transition: none !important;
+        }
+        .hero-in > *,
+        .rv {
+          opacity: 1;
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body class="antialiased">
+    <!-- NAVBAR -->
+    <header
+      id="nav"
+      class="fixed inset-x-0 top-0 z-50 transition-all duration-300"
+    >
+      <div
+        class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8"
+      >
+        <a href="#beranda" class="flex items-center gap-3">
+          <img
+            src="images/logo.jpeg"
+            alt="Logo CV Mugi Berkah Jaya"
+            class="h-11 w-11 rounded-xl bg-white object-contain shadow-lg shadow-forest-700/20 ring-1 ring-slate-200"
+          />
+          <span
+            class="font-display text-sm font-extrabold leading-tight tracking-tight text-slate-900"
+            >CV MUGI<br class="sm:hidden" /><span class="sm:ml-1"
+              >BERKAH JAYA</span
+            ></span
+          >
+        </a>
+        <nav class="hidden items-center gap-1 md:flex">
+          <a
+            class="rounded-full px-4 py-2 text-sm font-medium text-slate-600 transition hover:bg-forest-50 hover:text-forest-700"
+            href="#beranda"
+            >Beranda</a
+          >
+          <a
+            class="rounded-full px-4 py-2 text-sm font-medium text-slate-600 transition hover:bg-forest-50 hover:text-forest-700"
+            href="#tentang"
+            >Tentang Kami</a
+          >
+          <a
+            class="rounded-full px-4 py-2 text-sm font-medium text-slate-600 transition hover:bg-forest-50 hover:text-forest-700"
+            href="#layanan"
+            >Layanan</a
+          >
+          <a
+            class="rounded-full px-4 py-2 text-sm font-medium text-slate-600 transition hover:bg-forest-50 hover:text-forest-700"
+            href="#dampak"
+            >Dampak Sosial</a
+          >
+          <a
+            class="rounded-full px-4 py-2 text-sm font-medium text-slate-600 transition hover:bg-forest-50 hover:text-forest-700"
+            href="#kontak"
+            >Kontak</a
+          >
+        </nav>
+        <a
+          href="https://wa.me/6282326283666"
+          target="_blank"
+          rel="noopener"
+          class="hidden rounded-full bg-forest-700 px-6 py-2.5 text-sm font-semibold text-white shadow-lg shadow-forest-700/25 transition hover:-translate-y-0.5 hover:bg-forest-600 hover:shadow-xl md:inline-block"
+          >Hubungi Kami</a
+        >
+        <button
+          id="burger"
+          aria-label="Buka menu"
+          aria-expanded="false"
+          class="grid h-11 w-11 place-items-center rounded-xl bg-white/80 text-slate-800 ring-1 ring-slate-200 md:hidden"
+        >
+          <svg
+            class="h-6 w-6"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+        </button>
+      </div>
+      <div
+        id="mobile"
+        class="hidden border-t border-slate-200 bg-white/95 px-5 pb-5 pt-2 backdrop-blur-xl md:hidden"
+      >
+        <a class="block py-3 font-medium text-slate-700" href="#beranda"
+          >Beranda</a
+        >
+        <a class="block py-3 font-medium text-slate-700" href="#tentang"
+          >Tentang Kami</a
+        >
+        <a class="block py-3 font-medium text-slate-700" href="#layanan"
+          >Layanan</a
+        >
+        <a class="block py-3 font-medium text-slate-700" href="#dampak"
+          >Dampak Sosial</a
+        >
+        <a class="block py-3 font-medium text-slate-700" href="#kontak"
+          >Kontak</a
+        >
+        <a
+          href="https://wa.me/6282326283666"
+          target="_blank"
+          rel="noopener"
+          class="mt-2 block rounded-full bg-forest-700 py-3 text-center font-semibold text-white"
+          >Hubungi Kami</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section
+        id="beranda"
+        class="relative overflow-hidden bg-gradient-to-b from-forest-50 via-white to-slate-50 pt-32 pb-20 lg:pt-40 lg:pb-28"
+      >
+        <div class="geo pointer-events-none absolute inset-0"></div>
+        <div
+          class="pointer-events-none absolute -right-32 -top-24 h-96 w-96 rounded-full bg-emerald-300/30 blur-3xl"
+        ></div>
+        <div
+          class="pointer-events-none absolute -left-24 bottom-0 h-72 w-72 rounded-full bg-gold-400/20 blur-3xl"
+        ></div>
+        <div
+          class="relative mx-auto grid max-w-7xl items-center gap-14 px-5 lg:grid-cols-12 lg:px-8"
+        >
+          <div class="hero-in lg:col-span-7">
+            <span
+              class="inline-flex items-center gap-2 rounded-full border border-forest-100 bg-white px-4 py-1.5 text-xs font-semibold text-forest-700 shadow-sm"
+            >
+              <span class="h-2 w-2 rounded-full bg-emerald-500"></span> Mitra
+              pengolahan limbah industri, Grobogan
+            </span>
+            <h1
+              class="mt-6 text-4xl font-extrabold leading-[1.08] tracking-tight text-slate-900 sm:text-5xl lg:text-6xl"
+            >
+              Limbah Industri Diolah Kembali Menjadi
+              <span class="grad-text">Nilai Baru</span> Lewat Ekonomi Sirkular
+            </h1>
+            <p class="mt-6 max-w-xl text-lg leading-relaxed text-slate-600">
+              Kami menghubungkan pabrik garmen dan korporasi besar dengan
+              masyarakat desa: sisa produksi dikelola dengan rapi, lalu diolah
+              menjadi kasur, bantal, dan pakaian rumahan yang bermanfaat.
+            </p>
+            <div class="mt-9 flex flex-wrap gap-4">
+              <a
+                href="https://wa.me/6282326283666?text=Halo%20CV%20Mugi%20Berkah%20Jaya%2C%20saya%20ingin%20berkonsultasi%20tentang%20pengelolaan%20scrap."
+                target="_blank"
+                rel="noopener"
+                class="rounded-full bg-forest-700 px-8 py-4 font-semibold text-white shadow-xl shadow-forest-700/30 transition hover:-translate-y-1 hover:bg-forest-600"
+                >Konsultasi via WhatsApp</a
+              >
+              <a
+                href="#layanan"
+                class="rounded-full border border-slate-300 bg-white px-8 py-4 font-semibold text-slate-800 transition hover:-translate-y-1 hover:border-forest-600 hover:text-forest-700"
+                >Lihat Layanan Scrap</a
+              >
+            </div>
+          </div>
+          <div class="relative lg:col-span-5">
+            <div class="float relative mx-auto max-w-md">
+              <div
+                class="absolute -inset-4 rotate-3 rounded-[2.5rem] bg-gradient-to-br from-forest-600 to-forest-900 opacity-90"
+              ></div>
+              <div
+                class="relative overflow-hidden rounded-[2.5rem] rounded-tr-[6rem] rounded-bl-[6rem] border-4 border-white shadow-2xl"
+              >
+                <img
+                  src="images/gambar1.jpeg"
+                  alt="Tumpukan kain perca hasil sisa produksi garmen"
+                  class="aspect-[4/5] w-full object-cover"
+                />
+              </div>
+              <div
+                class="absolute -bottom-6 -left-4 rounded-2xl border border-slate-100 bg-white p-4 shadow-xl sm:-left-10"
+              >
+                <p class="text-xs font-medium text-slate-500">
+                  Legalitas resmi
+                </p>
+                <p class="font-display text-sm font-bold text-slate-900">
+                  NIB 0220105371839
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TENTANG & DAMPAK -->
+      <section id="tentang" class="py-20 lg:py-28">
+        <div class="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-2 lg:px-8">
+          <div class="rv">
+            <h2
+              class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl"
+            >
+              Jembatan antara pabrik dan desa
+            </h2>
+            <p class="mt-5 leading-relaxed text-slate-600">
+              CV Mugi Berkah Jaya adalah Industri Kecil Menengah (IKM) di sektor
+              pengolahan limbah dan tekstil. Kami mengumpulkan serta mengelola
+              limbah sisa produksi, seperti kain perca, dari korporasi dan
+              pabrik garmen besar.
+            </p>
+            <p class="mt-4 leading-relaxed text-slate-600">
+              Limbah itu tidak berakhir sebagai sampah. Warga desa kami
+              berdayakan untuk mengolahnya kembali menjadi peralatan rumah
+              tangga: kasur, bantal, dan pakaian rumahan. Pabrik terbantu
+              mengelola limbah, warga mendapat penghasilan, lingkungan lebih
+              terjaga.
+            </p>
+            <div
+              class="mt-8 flex items-center gap-5 rounded-3xl border border-gold-400/40 bg-gradient-to-br from-white to-amber-50/60 p-6 shadow-sm"
+            >
+              <span
+                class="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-forest-700 text-white"
+              >
+                <svg
+                  class="h-7 w-7"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M12 3 4 6v6c0 4.5 3.2 8 8 9 4.8-1 8-4.5 8-9V6l-8-3Z"
+                  />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+              </span>
+              <div>
+                <p class="text-sm text-slate-500">Nomor Induk Berusaha (NIB)</p>
+                <p
+                  class="font-display text-xl font-extrabold tracking-wide text-slate-900"
+                >
+                  0220105371839
+                </p>
+                <p class="text-xs font-medium text-gold-600">
+                  Terdaftar resmi sebagai usaha IKM/UMKM
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="dampak" class="rv scroll-mt-28">
+            <h2
+              class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl"
+            >
+              Dampak sosial dan lingkungan
+            </h2>
+            <div class="mt-8 grid gap-4 sm:grid-cols-2">
+              <div
+                class="card rounded-3xl border border-slate-200 bg-white p-6"
+              >
+                <span
+                  class="ico mb-4 grid h-11 w-11 place-items-center rounded-xl bg-forest-50 text-forest-700"
+                  ><svg
+                    class="h-6 w-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    viewBox="0 0 24 24"
+                    stroke-linecap="round"
+                  >
+                    <path
+                      d="M17 20v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2M10 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm11 10v-2a4 4 0 0 0-3-3.9M16 2.1a4 4 0 0 1 0 7.8"
+                    /></svg
+                ></span>
+                <h3 class="font-display font-bold text-slate-900">
+                  Pemberdayaan warga
+                </h3>
+                <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                  Masyarakat desa terlibat langsung dalam pengolahan dan
+                  mendapat penghasilan.
+                </p>
+              </div>
+              <div
+                class="card rounded-3xl border border-slate-200 bg-white p-6"
+              >
+                <span
+                  class="ico mb-4 grid h-11 w-11 place-items-center rounded-xl bg-forest-50 text-forest-700"
+                  ><svg
+                    class="h-6 w-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    viewBox="0 0 24 24"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M21 12a9 9 0 0 1-15.5 6.2L3 16m0 0v5m0-5h5M3 12A9 9 0 0 1 18.5 5.8L21 8m0 0V3m0 5h-5"
+                    /></svg
+                ></span>
+                <h3 class="font-display font-bold text-slate-900">
+                  Limbah jadi produk
+                </h3>
+                <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                  Sisa produksi kembali ke siklus pakai sebagai kasur, bantal,
+                  dan pakaian rumahan.
+                </p>
+              </div>
+              <div
+                class="card rounded-3xl border border-slate-200 bg-white p-6"
+              >
+                <span
+                  class="ico mb-4 grid h-11 w-11 place-items-center rounded-xl bg-forest-50 text-forest-700"
+                  ><svg
+                    class="h-6 w-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    viewBox="0 0 24 24"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M12 2.7c4 4.3 6 7.4 6 10.3a6 6 0 0 1-12 0c0-2.9 2-6 6-10.3Z"
+                    /></svg
+                ></span>
+                <h3 class="font-display font-bold text-slate-900">
+                  Beban lingkungan berkurang
+                </h3>
+                <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                  Limbah industri dikelola, bukan dibuang atau dibakar
+                  sembarangan.
+                </p>
+              </div>
+              <div
+                class="card rounded-3xl border border-slate-200 bg-white p-6"
+              >
+                <span
+                  class="ico mb-4 grid h-11 w-11 place-items-center rounded-xl bg-forest-50 text-forest-700"
+                  ><svg
+                    class="h-6 w-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    viewBox="0 0 24 24"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M3 21h18M5 21V8l5 3V8l5 3V4h4v17" /></svg
+                ></span>
+                <h3 class="font-display font-bold text-slate-900">
+                  Mitra industri
+                </h3>
+                <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                  Kerja sama dengan pabrik garmen dan korporasi untuk
+                  pengelolaan scrap berkelanjutan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LAYANAN -->
+      <section
+        id="layanan"
+        class="relative bg-slate-900 py-20 text-white lg:py-28"
+      >
+        <div
+          class="pointer-events-none absolute inset-0 opacity-40"
+          style="
+            background: radial-gradient(
+                circle at 15% 10%,
+                rgba(16, 185, 129, 0.25),
+                transparent 45%
+              ),
+              radial-gradient(
+                circle at 90% 90%,
+                rgba(195, 154, 74, 0.18),
+                transparent 40%
+              );
+          "
+        ></div>
+        <div class="relative mx-auto max-w-7xl px-5 lg:px-8">
+          <div class="rv max-w-2xl">
+            <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
+              Scrap yang kami terima dan kelola
+            </h2>
+            <p class="mt-4 text-slate-300">
+              Lima kategori limbah industri yang bisa Anda serahkan kepada kami.
+              Hubungi kami untuk volume, jadwal, dan mekanisme pengambilan.
+            </p>
+          </div>
+          <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <article
+              class="card rv rounded-3xl border border-slate-200 bg-white p-7 text-slate-800"
+            >
+              <span
+                class="ico mb-5 grid h-14 w-14 place-items-center rounded-2xl bg-forest-50 text-forest-700"
+                ><svg
+                  class="h-7 w-7"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M3 7c3-3 6 3 9 0s6 3 9 0M3 13c3-3 6 3 9 0s6 3 9 0M3 19c3-3 6 3 9 0s6 3 9 0"
+                  /></svg
+              ></span>
+              <h3 class="text-xl font-bold">Scrap Kain Perca</h3>
+              <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                Sisa potongan kain dari produksi garmen, diolah warga menjadi
+                isian kasur, bantal, dan pakaian rumahan.
+              </p>
+            </article>
+            <article
+              class="card rv rounded-3xl border border-slate-200 bg-white p-7 text-slate-800"
+            >
+              <span
+                class="ico mb-5 grid h-14 w-14 place-items-center rounded-2xl bg-forest-50 text-forest-700"
+                ><svg
+                  class="h-7 w-7"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M4 6c2-2 5-2 8 0 3-2 6-2 8 0l-2 5c-1 1-1 4-1 9H7c0-5 0-8-1-9L4 6Z"
+                  /></svg
+              ></span>
+              <h3 class="text-xl font-bold">Scrap Kulit</h3>
+              <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                Potongan dan sisa kulit dari industri alas kaki, tas, dan barang
+                kulit lainnya.
+              </p>
+            </article>
+            <article
+              class="card rv rounded-3xl border border-slate-200 bg-white p-7 text-slate-800"
+            >
+              <span
+                class="ico mb-5 grid h-14 w-14 place-items-center rounded-2xl bg-forest-50 text-forest-700"
+                ><svg
+                  class="h-7 w-7"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="3" y="4" width="18" height="6" rx="2" />
+                  <rect x="3" y="14" width="18" height="6" rx="2" />
+                  <path d="M7 7h.01M7 17h.01" /></svg
+              ></span>
+              <h3 class="text-xl font-bold">Scrap PVC</h3>
+              <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                Limbah PVC sisa produksi industri yang dikumpulkan dan dikelola
+                agar tidak mencemari lingkungan.
+              </p>
+            </article>
+            <article
+              class="card rv rounded-3xl border border-slate-200 bg-white p-7 text-slate-800"
+            >
+              <span
+                class="ico mb-5 grid h-14 w-14 place-items-center rounded-2xl bg-forest-50 text-forest-700"
+                ><svg
+                  class="h-7 w-7"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M6 4h12M6 20h12M10 4v16M14 4v16M10 9h4M10 15h4"
+                  /></svg
+              ></span>
+              <h3 class="text-xl font-bold">Scrap Besi</h3>
+              <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                Sisa besi dari pabrik dan kegiatan produksi, siap dikumpulkan
+                dalam jumlah besar.
+              </p>
+            </article>
+            <article
+              class="card rv rounded-3xl border border-slate-200 bg-white p-7 text-slate-800 sm:col-span-2"
+            >
+              <span
+                class="ico mb-5 grid h-14 w-14 place-items-center rounded-2xl bg-forest-50 text-forest-700"
+                ><svg
+                  class="h-7 w-7"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z" />
+                  <path d="m4 7.5 8 4.5 8-4.5M12 12v9" /></svg
+              ></span>
+              <h3 class="text-xl font-bold">
+                Scrap Logam: Tembaga &amp; Aluminium
+              </h3>
+              <p class="mt-2 max-w-xl text-sm leading-relaxed text-slate-600">
+                Limbah logam non-besi bernilai tinggi dari industri, kami terima
+                untuk dikelola dan dikembalikan ke rantai daur ulang.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALERI -->
+      <section id="galeri" class="py-20 lg:py-28">
+        <div class="mx-auto max-w-7xl px-5 lg:px-8">
+          <div class="rv max-w-2xl">
+            <h2
+              class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl"
+            >
+              Galeri kegiatan dan produk
+            </h2>
+            <p class="mt-4 text-slate-600">
+              Dokumentasi proses kami, dari pemilahan limbah hingga produk jadi
+              buatan warga desa.
+            </p>
+          </div>
+          <div
+            class="mt-12 grid auto-rows-[200px] grid-cols-2 gap-4 md:grid-cols-4 md:auto-rows-[220px]"
+          >
+            <figure
+              class="zoom rv relative col-span-2 row-span-2 overflow-hidden rounded-3xl"
+            >
+              <img
+                class="h-full w-full object-cover"
+                loading="lazy"
+                alt="Kain perca siap diolah"
+                src="images/gambar1.jpeg"
+              />
+              <figcaption
+                class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-900/80 to-transparent p-5 text-sm font-semibold text-white"
+              >
+                Pemilahan kain perca
+              </figcaption>
+            </figure>
+            <figure class="zoom rv relative overflow-hidden rounded-3xl">
+              <img
+                class="h-full w-full object-cover"
+                loading="lazy"
+                alt="Pekerja menjahit"
+                src="images/gambar3.jpeg"
+              />
+              <figcaption
+                class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-900/80 to-transparent p-4 text-sm font-semibold text-white"
+              >
+                Pengolahan oleh warga
+              </figcaption>
+            </figure>
+            <figure
+              class="zoom rv relative row-span-2 overflow-hidden rounded-3xl"
+            >
+              <img
+                class="h-full w-full object-cover"
+                loading="lazy"
+                alt="Produk bantal dan kasur"
+                src="images/gambar5.jpeg"
+              />
+              <figcaption
+                class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-900/80 to-transparent p-4 text-sm font-semibold text-white"
+              >
+                Produk rumah tangga
+              </figcaption>
+            </figure>
+            <figure class="zoom rv relative overflow-hidden rounded-3xl">
+              <img
+                class="h-full w-full object-cover"
+                loading="lazy"
+                alt="Tumpukan logam scrap"
+                src="images/gambar4.jpeg"
+              />
+              <figcaption
+                class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-900/80 to-transparent p-4 text-sm font-semibold text-white"
+              >
+                Scrap logam
+              </figcaption>
+            </figure>
+            <figure
+              class="zoom rv relative col-span-2 overflow-hidden rounded-3xl"
+            >
+              <img
+                class="h-full w-full object-cover"
+                loading="lazy"
+                alt="Gudang pengumpulan limbah industri"
+                src="images/gambar2.jpeg"
+              />
+              <figcaption
+                class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-900/80 to-transparent p-4 text-sm font-semibold text-white"
+              >
+                Pengumpulan dan penyimpanan
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- KONTAK -->
+      <section
+        id="kontak"
+        class="bg-gradient-to-b from-slate-50 to-forest-50 py-20 lg:py-28"
+      >
+        <div class="mx-auto max-w-7xl px-5 lg:px-8">
+          <div class="rv max-w-2xl">
+            <h2
+              class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl"
+            >
+              Mari bekerja sama
+            </h2>
+            <p class="mt-4 text-slate-600">
+              Punya limbah industri yang perlu dikelola? Kirim pesan, kami balas
+              melalui WhatsApp.
+            </p>
+          </div>
+          <div class="mt-12 grid gap-8 lg:grid-cols-5">
+            <div class="rv space-y-4 lg:col-span-2">
+              <a
+                href="https://wa.me/6282326283666"
+                target="_blank"
+                rel="noopener"
+                class="card flex items-center gap-4 rounded-2xl border border-slate-200 bg-white p-5"
+              >
+                <span
+                  class="ico grid h-12 w-12 place-items-center rounded-xl bg-forest-50 text-forest-700"
+                  ><svg
+                    class="h-6 w-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    viewBox="0 0 24 24"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"
+                    /></svg
+                ></span>
+                <span
+                  ><span class="block text-sm text-slate-500">WhatsApp</span
+                  ><span class="font-semibold text-slate-900"
+                    >082 326 283 666</span
+                  ></span
+                >
+              </a>
+              <a
+                href="mailto:cv.mugiberkahjaya@gmail.com"
+                class="card flex items-center gap-4 rounded-2xl border border-slate-200 bg-white p-5"
+              >
+                <span
+                  class="ico grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-forest-50 text-forest-700"
+                  ><svg
+                    class="h-6 w-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    viewBox="0 0 24 24"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <path d="m3 7 9 6 9-6" /></svg
+                ></span>
+                <span class="min-w-0"
+                  ><span class="block text-sm text-slate-500">Email</span
+                  ><span class="block break-all font-semibold text-slate-900"
+                    >cv.mugiberkahjaya@gmail.com</span
+                  ></span
+                >
+              </a>
+              <div
+                class="flex items-start gap-4 rounded-2xl border border-slate-200 bg-white p-5"
+              >
+                <span
+                  class="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-forest-50 text-forest-700"
+                  ><svg
+                    class="h-6 w-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    viewBox="0 0 24 24"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"
+                    />
+                    <circle cx="12" cy="10" r="2.5" /></svg
+                ></span>
+                <span
+                  ><span class="block text-sm text-slate-500">Alamat</span
+                  ><span class="font-semibold text-slate-900"
+                    >Ngroto, Gubug, Grobogan, Jawa Tengah 58164</span
+                  ></span
+                >
+              </div>
+              <a
+                href="https://maps.app.goo.gl/bqB1GjHShDtekcmz6"
+                target="_blank"
+                rel="noopener"
+                class="flex items-center justify-center gap-2 rounded-full border border-forest-700 px-6 py-3.5 font-semibold text-forest-700 transition hover:bg-forest-700 hover:text-white"
+                >Buka di Google Maps</a
+              >
+            </div>
+            <form
+              id="form"
+              class="rv rounded-3xl border border-slate-200 bg-white p-7 shadow-xl shadow-slate-900/5 sm:p-9 lg:col-span-3"
+            >
+              <div class="grid gap-5 sm:grid-cols-2">
+                <label class="block text-sm font-medium text-slate-700"
+                  >Nama
+                  <input
+                    required
+                    name="nama"
+                    class="mt-2 w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 outline-none transition focus:border-forest-600 focus:bg-white focus:ring-4 focus:ring-forest-100"
+                    placeholder="Nama lengkap"
+                  />
+                </label>
+                <label class="block text-sm font-medium text-slate-700"
+                  >Perusahaan
+                  <input
+                    name="pt"
+                    class="mt-2 w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 outline-none transition focus:border-forest-600 focus:bg-white focus:ring-4 focus:ring-forest-100"
+                    placeholder="Nama perusahaan (opsional)"
+                  />
+                </label>
+              </div>
+              <label class="mt-5 block text-sm font-medium text-slate-700"
+                >Jenis scrap
+                <select
+                  name="jenis"
+                  class="mt-2 w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 outline-none transition focus:border-forest-600 focus:bg-white focus:ring-4 focus:ring-forest-100"
+                >
+                  <option>Scrap Kain Perca</option>
+                  <option>Scrap Kulit</option>
+                  <option>Scrap PVC</option>
+                  <option>Scrap Besi</option>
+                  <option>Scrap Logam (Tembaga &amp; Aluminium)</option>
+                </select>
+              </label>
+              <label class="mt-5 block text-sm font-medium text-slate-700"
+                >Pesan
+                <textarea
+                  required
+                  name="pesan"
+                  rows="4"
+                  class="mt-2 w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 outline-none transition focus:border-forest-600 focus:bg-white focus:ring-4 focus:ring-forest-100"
+                  placeholder="Jelaskan jenis, perkiraan volume, dan lokasi limbah Anda"
+                ></textarea>
+              </label>
+              <button
+                class="mt-6 w-full rounded-full bg-forest-700 py-4 font-semibold text-white shadow-lg shadow-forest-700/25 transition hover:-translate-y-0.5 hover:bg-forest-600"
+                type="submit"
+              >
+                Kirim lewat WhatsApp
+              </button>
+              <p class="mt-3 text-center text-xs text-slate-500">
+                Pesan akan dibuka di WhatsApp dan dikirim ke 082 326 283 666.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-300">
+      <div
+        class="mx-auto grid max-w-7xl gap-10 px-5 py-14 md:grid-cols-3 lg:px-8"
+      >
+        <div>
+          <p class="font-display text-lg font-extrabold text-white">
+            CV MUGI BERKAH JAYA
+          </p>
+          <p class="mt-3 text-sm leading-relaxed text-slate-400">
+            IKM/UMKM pengolahan limbah dan tekstil berbasis ekonomi sirkular,
+            Grobogan, Jawa Tengah.
+          </p>
+        </div>
+        <div>
+          <p class="font-semibold text-white">Tautan cepat</p>
+          <ul class="mt-3 space-y-2 text-sm">
+            <li>
+              <a class="transition hover:text-emerald-400" href="#beranda"
+                >Beranda</a
+              >
+            </li>
+            <li>
+              <a class="transition hover:text-emerald-400" href="#tentang"
+                >Tentang Kami</a
+              >
+            </li>
+            <li>
+              <a class="transition hover:text-emerald-400" href="#layanan"
+                >Layanan</a
+              >
+            </li>
+            <li>
+              <a class="transition hover:text-emerald-400" href="#dampak"
+                >Dampak Sosial</a
+              >
+            </li>
+            <li>
+              <a class="transition hover:text-emerald-400" href="#kontak"
+                >Kontak</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p class="font-semibold text-white">Legalitas</p>
+          <p class="mt-3 text-sm text-slate-400">
+            Terdaftar resmi dengan Nomor Induk Berusaha (NIB)
+          </p>
+          <p class="mt-1 font-display font-bold text-gold-400">0220105371839</p>
+        </div>
+      </div>
+      <div
+        class="border-t border-white/10 py-5 text-center text-xs text-slate-500"
+      >
+        &copy; <span id="yr">2026</span> CV MUGI BERKAH JAYA. Hak cipta
+        dilindungi. NIB 0220105371839.
+      </div>
+    </footer>
+
+    <script>
+      const nav = document.getElementById("nav");
+      const onScroll = () =>
+        nav.classList.toggle("nav-scrolled", window.scrollY > 24);
+      onScroll();
+      window.addEventListener("scroll", onScroll, { passive: true });
+
+      const burger = document.getElementById("burger"),
+        mobile = document.getElementById("mobile");
+      burger.addEventListener("click", () => {
+        const open = mobile.classList.toggle("hidden") === false;
+        burger.setAttribute("aria-expanded", open);
+      });
+      mobile.querySelectorAll("a").forEach((a) =>
+        a.addEventListener("click", () => {
+          mobile.classList.add("hidden");
+          burger.setAttribute("aria-expanded", false);
+        })
+      );
+
+      const io = new IntersectionObserver(
+        (es) =>
+          es.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add("on");
+              io.unobserve(e.target);
+            }
+          }),
+        { threshold: 0.12 }
+      );
+      document.querySelectorAll(".rv").forEach((el, i) => {
+        el.style.transitionDelay = (i % 4) * 70 + "ms";
+        io.observe(el);
+      });
+
+      document.getElementById("yr").textContent = new Date().getFullYear();
+
+      document.getElementById("form").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const f = new FormData(e.target);
+        const text = `Halo CV Mugi Berkah Jaya,\nNama: ${f.get(
+          "nama"
+        )}\nPerusahaan: ${f.get("pt") || "-"}\nJenis scrap: ${f.get(
+          "jenis"
+        )}\n\n${f.get("pesan")}`;
+        window.open(
+          "https://wa.me/6282326283666?text=" + encodeURIComponent(text),
+          "_blank",
+          "noopener"
+        );
+      });
+    </script>
+  </body>
+</html>
